@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task7</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personal Particular</legend>
+
+        <label for="fullname">Name:</label>
+        <input type="text" id="fullname" name="fullname" autocomplete="name" />
+        <br /><br />
+        <label for="pwd">Password:</label>
+        <input
+          type="password"
+          id="pwd"
+          name="password"
+          autocomplete="current-password"
+        />
+        <br /><br />
+
+        <span>Gender:</span>
+        <input type="radio" id="gender_male" name="gender" value="Male" />
+        <label for="gender_male">Male</label>
+        <input type="radio" id="gender_female" name="gender" value="Female" />
+        <label for="gender_female">Female</label>
+        <br /><br />
+        <label for="ageSelect">Age:</label>
+        <select id="ageSelect" name="age_group">
+          <option value="<1" selected>&lt; 1 year old</option>
+          <option value="1">1 year old</option>
+          <option value="2">2 years old</option>
+          <option value="3">3 years old</option>
+          <option value="4">4 years old</option>
+          <option value="5">5 years old</option>
+          <option value="6-12">6–12 years old</option>
+          <option value="13-19">13–19 years old</option>
+          <option value="20-29">20–29 years old</option>
+          <option value="30-39">30–39 years old</option>
+          <option value="40-49">40–49 years old</option>
+          <option value="50+">50 years or older</option>
+        </select>
+        <br /><br />
+        <span>Languages</span><br />
+        <input type="checkbox" id="lang_java" name="languages" value="Java" />
+        <label for="lang_java">Java</label>
+        <input type="checkbox" id="lang_cpp" name="languages" value="C/C++" />
+        <label for="lang_cpp">C/C++</label>
+        <input type="checkbox" id="lang_csharp" name="languages" value="C#" />
+        <label for="lang_csharp">C#</label>
+        <br /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Instruction</legend>
+        <label for="instructionText">Enter your instruction here...</label
+        ><br />
+        <textarea
+          id="instructionText"
+          name="user_instruction"
+          rows="4"
+          cols="50"
+          placeholder="Write any special instructions or comments..."
+        ></textarea>
+      </fieldset>
+      <br />
+
+      <button type="submit">SEND</button>
+
+      <button type="reset">CLEAR</button>
+    </form>
+
+    <p><a href="./subIndex.html">Go Back</a></p>
+    <br />
+    <p><a href="../index.html">Go to Home</a></p>
+  </body>
+</html>
