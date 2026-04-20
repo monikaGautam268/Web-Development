@@ -24,9 +24,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: column;
+  
 }
 img {
   width: 6rem;
@@ -104,7 +105,13 @@ img {
   font-weight: 800;
   color: var(--color-base-content);
   margin-bottom: 8px;
+  margin-top: 10rem;
+  width:100%;
+  height:900px;
+   background:linear-gradient(180deg ,#c2410c 0% ,#fff8f1 100%);
+ 
 }
+
 
 .featured-section .section-subtext {
   font-size: 16px;
@@ -274,6 +281,29 @@ img {
 }
 
 .OrderNowsearchBox input::placeholder {
+  color: var(--color-primary);
+  background-color: var(--color-base-200);
+  opacity: 0.5;
+}
+.OrderNowsearchBox1 {
+  border: 1px solid var(--color-primary);
+  width: 50%;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 25%;
+  border-radius: 10px;
+  background-color: var(--color-base-200);
+}
+
+.OrderNowsearchBox1 input {
+  width: 90%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: var(--color-base-200);
+}
+
+.OrderNowsearchBox1 input::placeholder {
   color: var(--color-primary);
   background-color: var(--color-base-200);
   opacity: 0.5;
