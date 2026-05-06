@@ -1,5 +1,4 @@
-// function expression  //write function expression with const
-const abc = function () { 
+const abc = function () {   // function expression  //write function expression with const
   console.log("hello world");
 };
 console.log(abc);  // callBack function
